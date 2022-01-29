@@ -1,0 +1,35 @@
+.oneUserIcon {
+  font-size: 1.5em;
+}
+.teamCard {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dadce0;
+  padding: 4vmin;
+}
+
+.teamCardName {
+  font-weight: 700;
+  color: black;
+}
+
+.teamCardDescription {
+  color: #8a909b;
+}
+.teamSelected {
+  border-color: #5a4ad1;
+  color: #5a4ad1;
+}
+#form3RequiredText {
+  font-size: 1vmax;
+  padding: 0;
+  margin: 0;
+}
+#form3PageButton {
+  padding-top: 0 !important;
+}
+#form3PageButton button {
+  margin-top: 5vmin;
+  padding: 0;
+}

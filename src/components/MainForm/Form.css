@@ -1,0 +1,102 @@
+.edenImageDiv {
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edenImage {
+  height: 10vmin;
+}
+.centerDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pageHeading {
+  color: #000000;
+  font-size: 4.5vmin;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.pageSubHeading {
+  color: #8a909b;
+  font-size: 3vmin;
+  text-align: center;
+  margin-bottom: 5vmin;
+}
+.inputFieldName {
+  color: #4c4d4e;
+  font-weight: 500;
+  font-size: 2.5vmin;
+  margin-bottom: 1vmin;
+}
+.inputField {
+  width: stretch;
+  height: 5vmin;
+  font-size: 2.5vmin;
+  padding: 1vmin 0 1vmin 3vmin;
+  border-color: #e1e5ec;
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: solid;
+}
+
+.pageButton {
+  margin-top: 4vmin;
+  width: 100%;
+  height: 7vmin;
+  background-color: #5a4ad1;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 2.5vmin;
+  padding-top: 1vmin;
+  padding-bottom: 1vmin;
+}
+
+.indexedStep {
+  color: white;
+  width: 3vmax;
+  height: 3vmax;
+  font-size: 2.5vmin;
+  background-color: rgba(211, 211, 211, 0.8);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.indexedStep.accomplished {
+  background-color: #5a4ad1;
+}
+
+.RSPBprogressBar .RSPBprogression {
+  background-color: #5a4ad1 !important;
+}
+
+.multiStepper {
+  margin-top: 7vmin;
+  margin-bottom: 9vmin;
+}
+
+.RSPBprogressBar {
+  height: 4px !important;
+}
+
+.inputField:focus {
+  outline: none !important;
+  border: 1px solid #5a4ad1;
+}
+.requiredText {
+  color: red;
+  margin-left: 2vmin;
+  margin-top: 0;
+  font-size: 2vmin;
+}
+.redInputBorder {
+  outline: none !important;
+  border: 1px solid red;
+}

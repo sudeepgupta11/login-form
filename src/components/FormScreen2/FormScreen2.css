@@ -1,0 +1,46 @@
+.inputFieldFixedURL {
+  width: 30%;
+  height: 5vmin;
+  font-size: 2.4vmin;
+  padding: 1vmin 2vmin 1vmin 2vmin;
+  border-color: #e1e5ec;
+  border-width: 1px;
+  border-radius: 5px 0 0 5px;
+  border-style: solid;
+  margin-bottom: 1vmin;
+  margin-top: 1vmin;
+  background-color: #dadce0;
+  border-right: none;
+}
+.inputFieldURL {
+  width: 70%;
+  height: 5vmin;
+  font-size: 2.5vmin;
+  padding: 1vmin 3vmin;
+  border-color: #e1e5ec;
+  border-width: 1px;
+  border-radius: 0 5px 5px 0;
+  border-style: solid;
+  margin-bottom: 1vmin;
+  margin-top: 1vmin;
+  border-left: none;
+}
+
+.workspaceURL {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.optionalFieldName {
+  color: #aaadb3;
+  font-weight: 500;
+  font-size: 2.5vmin;
+}
+
+#workspaceDiv {
+  margin-top: 2vmin;
+}
+.inputFieldURL:focus {
+  outline: none !important;
+  border: 1px solid #5a4ad1;
+}
